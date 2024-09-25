@@ -7,10 +7,10 @@
     <img src="https://icsprogramming.ca/images/favicon.jpg" alt="Logo" width="40" height="40">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ICS3UO Course Activities</h3>
 
   <p align="center">
-    project_description
+    This is a repositry for all the projects completed in ICS3UO Course.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
