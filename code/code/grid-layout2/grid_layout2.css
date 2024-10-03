@@ -1,0 +1,71 @@
+/* grid layout and responsive design - boilerplate */
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	color: #333333;
+	font-family: "Roboto";
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/* fluid column layout */
+.fluid1col, .fluid2col, .fluid3col, .fluid23col, .fluid4col, .fluid5col, .fluid6col, .fluid34col {
+	padding:  10px 10px;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+}
+
+.container {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+	/* fluid columns */
+	.fluid1col {
+		width: 100%;
+	}
+	.fluid2col {
+		width: 50%;
+	}
+	.fluid23col {
+		width: 66.666666666666666%;
+	}	
+	.fluid3col {
+		width: 33.33333333333%;		
+	}
+	.fluid34col {
+		width: 75%;	
+	}	
+	.fluid4col {
+		width: 25%;	
+	}	
+	.fluid5col {
+		width: 20%;
+	}
+	.fluid6col {
+		width:  16.6666666666%;
+	}
+}
+@media screen and (max-width: 600px) {
+	/* fluid columns */
+	.fluid1col, .fluid2col, .fluid3col, .fluid23col, .fluid4col, .fluid5col, .fluid6col, .fluid34col {
+		width:  100%;
+	}
+}
+.clear {
+	clear: both;
+}
